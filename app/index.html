@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voting - Talent Land 2018</title>
+    <!-- CSS --> 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">     
+  </head>
+  <body>
+    <!-- Contenido -->
+    <main class="page">
+      <div class="container">
+        <h2>Una aplicación simple para votar</h2>
+        <br>
+        <br>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Candidato</th>
+                <th>Votos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Maria</td>
+                <td id="candidate-1"></td>
+              </tr>
+              <tr>
+                <td>Nicolas</td>
+                <td id="candidate-2"></td>
+              </tr>
+              <tr>
+                <td>Raul</td>
+                <td id="candidate-3"></td>
+              </tr>
+            </tbody>
+          </table>
+          <div id="msg"></div>
+        </div>
+        <input type="text" id="candidate" />
+        <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Votar</a>
+      </div>
+      <br>
+    </main>
+    <!-- JS --> 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+    <script src="app.js"></script>
+  </body>
+</html>
+
+ 
