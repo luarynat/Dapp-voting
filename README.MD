@@ -1,4 +1,4 @@
-Aplicacion simple de votacion basada en Ethereum
+Aplicacion simple de votación basada en Ethereum
 
 1.- Instalar las dependencias 
 
@@ -8,11 +8,11 @@ Aplicacion simple de votacion basada en Ethereum
 
     truffle compile
 		
-3.- Desplegar smart contracts
+3.- Desplegar Smart Contracts
 
     truffle migrate
 		
-4.- Levantar servico node
+4.- Levantar servicio node
 
     npm run dev
 
